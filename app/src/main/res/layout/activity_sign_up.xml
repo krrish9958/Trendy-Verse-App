@@ -43,7 +43,7 @@
                 android:textSize="34sp" />
 
             <EditText
-                android:id="@+id/username"
+                android:id="@+id/emailLoginEt"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="30dp"
@@ -71,7 +71,7 @@
                 android:textColorHighlight="@color/cardview_dark_background" />
 
             <com.google.android.material.textfield.TextInputLayout
-                android:id="@+id/password"
+                android:id="@+id/passwordLoginEt"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
