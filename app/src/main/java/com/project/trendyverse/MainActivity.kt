@@ -96,4 +96,12 @@ class MainActivity : AppCompatActivity() {
                 Toast.makeText(this, it.localizedMessage, Toast.LENGTH_LONG).show()
             }
     }
+
+    override fun onStart() {
+        super.onStart()
+        if (auth.currentUser != null) {
+            startActivity(Intent(this@MainActivity, HomePageActivity::class.java))
+            finish()
+        }
+    }
 }
