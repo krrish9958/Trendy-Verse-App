@@ -72,16 +72,16 @@ class HomeFragment : Fragment() {
         productList = arrayListOf<featureproductdata>()
         adaptertwo= FeatureProductAdapter(productList)
         productcardImg1= arrayOf(
-            R.drawable.nikeairjordanss,
-            R.drawable.sliderwinter,
-            R.drawable.sliderwatch,
-            R.drawable.sliderwomens
+            R.drawable.f2,
+            R.drawable.f2,
+            R.drawable.f2,
+            R.drawable.f2
         )
         productcardImg2= arrayOf(
-            R.drawable.nikeairjordanss,
-            R.drawable.sliderwinter,
-            R.drawable.sliderwatch,
-            R.drawable.sliderwomens
+            R.drawable.f2,
+            R.drawable.f2,
+            R.drawable.f2,
+            R.drawable.f2
         )
         brandName = arrayOf(
             "bchjeb",
@@ -117,8 +117,8 @@ class HomeFragment : Fragment() {
             "cbhcbbhc",
             "sjcbhjcj",
             "ncncncncn")
-        recyclerView.layoutManager= LinearLayoutManager(requireContext(), LinearLayoutManager.HORIZONTAL,false)
-        recyclerView.setHasFixedSize(true)
+        recyclerViewtwo.layoutManager= LinearLayoutManager(requireContext(), LinearLayoutManager.VERTICAL,false)
+        recyclerViewtwo.setHasFixedSize(true)
         getProductData()
 
         // Inflate the layout for this fragment
