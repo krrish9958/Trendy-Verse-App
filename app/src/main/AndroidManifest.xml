@@ -13,6 +13,9 @@
         android:theme="@style/Theme.TrendyVerse"
         tools:targetApi="31">
         <activity
+            android:name=".ProductPageActivity"
+            android:exported="false" />
+        <activity
             android:name=".ForgetPassword"
             android:exported="false" />
         <activity
